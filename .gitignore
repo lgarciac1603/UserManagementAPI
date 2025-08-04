@@ -1,0 +1,39 @@
+
+---
+
+### **.gitignore**
+
+Este archivo ignora archivos comunes de proyectos .NET y temporales:  
+
+```gitignore
+# Archivos binarios y temporales
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# Archivos de usuario y configuraciones locales
+*.user
+*.vspscc
+*.vssscc
+.vs/
+.vscode/
+
+# Archivos de build y publicación
+*.log
+*.lock
+*.json
+*.db
+*.bak
+
+# Configuración de entorno
+.env
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Paquetes
+packages/
